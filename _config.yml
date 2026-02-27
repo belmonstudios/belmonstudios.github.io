@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Belmon Studios
 description: Site under construction
+plugins:
+- jekyll-remote-theme
