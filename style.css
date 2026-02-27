@@ -18,7 +18,7 @@ h2{
     color: #8d93c7;
 }
 p{
-    color: #8d93c7;
+    color: #828499;
     font-family: "lucida console", "courier new";
     font-size: 16px;
 }
@@ -28,17 +28,16 @@ span{
     font-size: 16px;
 }
 pre{
-    color: #8d93c7;
+    color: #828499;
     font-family: "lucida console", "courier new";
     font-size: 16px;
 }
 
-.logo-name{
+.upper{
     display: inline-flex;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     line-height: 40px;
-    width: 100%;
 }
 
 .header-links-element{
@@ -46,18 +45,37 @@ pre{
     border-color: white;
     padding: 2px;
     height: 40px;
-    width: 50%;
+    width: 100%;
     text-align: left;
     display: block;
 }
 
 .header-follow-element{
-    background-color: #171a35;
-    border-color: white;
+    background-color: #000327;
     padding: 2px;
     height: 40px;
-    width: 50%;
+    width: 100%;
     text-align: right;
     line-height: 40px;
     display: block;
+}
+
+/* Hyperlinks */
+a:link {
+  color: #8f6944;
+}
+
+/* visited link */
+a:visited {
+  color: #7f86d2;
+}
+
+/* mouse over link */
+a:hover {
+  color: #8f6944;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
