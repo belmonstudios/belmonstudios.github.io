@@ -6,6 +6,8 @@ title{
 }
 body{
     background-color: #21233d;
+    max-width: 1000px;    
+    margin:0 auto;
 }
 main{
     text-align: center;
@@ -16,6 +18,9 @@ h1{
 }
 h2{
     color: #8d93c7;
+}
+h3{
+    color: #828499;
 }
 p{
     color: #828499;
@@ -52,14 +57,35 @@ pre{
 
 .header-follow-element{
     background-color: #000327;
-    padding: 2px;
     height: 40px;
     width: 100%;
-    text-align: right;
     line-height: 40px;
     display: block;
 }
 
+.hyperlink-icon:hover img{
+    scale: 1.1;
+}
+
+.main-block{
+    display: inline-flex; 
+    gap: 10px
+}
+
+#img {
+    max-width:50%; 
+    height: auto; 
+    object-fit:scale-down;
+}
+
+@media only screen and (max-width: 700px) {
+  .main-block {
+    display: block; 
+  }
+  #img {
+    max-width:80%; 
+}
+}
 /* Hyperlinks */
 a:link {
   color: #8f6944;
