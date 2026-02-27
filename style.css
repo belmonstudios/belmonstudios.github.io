@@ -1,0 +1,62 @@
+header{
+        background-color: #000327;
+}
+title{
+    color: #7f86d2;
+}
+body{
+    background-color: #21233d;
+}
+main{
+    text-align: center;
+}
+h1{
+    color: #8d93c7;
+    font-family: verdana, arial;
+}
+h2{
+    color: #8d93c7;
+}
+p{
+    color: #8d93c7;
+    font-family: "lucida console", "courier new";
+    font-size: 16px;
+}
+span{
+    color: #8d93c7;
+    font-family: "lucida console", "courier new";
+    font-size: 16px;
+}
+pre{
+    color: #8d93c7;
+    font-family: "lucida console", "courier new";
+    font-size: 16px;
+}
+
+.logo-name{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.header-links-element{
+    background-color: #171a35;
+    border-color: white;
+    padding: 2px;
+    height: 40px;
+    width: 50%;
+    text-align: left;
+    display: block;
+}
+
+.header-follow-element{
+    background-color: #171a35;
+    border-color: white;
+    padding: 2px;
+    height: 40px;
+    width: 50%;
+    text-align: right;
+    line-height: 40px;
+    display: block;
+}
