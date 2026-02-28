@@ -1,17 +1,33 @@
-header{
-        background-color: #000327;
-}
 title{
     color: #7f86d2;
 }
 body{
+    
     background-color: #21233d;
+}
+header{
+    background-color: #000327;
+    margin:0;
+}
+
+main{    
+    background-color: #21233d;
+    text-align: center;
+    margin:0;
+}
+
+footer{    
+    background-color: #21233d;  
+    border-top: 1px solid #333864;
+    margin:0;
+}
+
+.footer-block{
+    margin-left: 10px;
     max-width: 1000px;    
     margin:0 auto;
 }
-main{
-    text-align: center;
-}
+
 h1{
     color: #8d93c7;
     font-family: verdana, arial;
@@ -43,16 +59,25 @@ pre{
     text-align: left;
     justify-content: center;
     line-height: 40px;
+    max-width: 1000px;    
+    margin:0 auto;
+}
+
+.upper-links{  
+    background-color: #171a35; 
+    border-top: 1px solid #212556;
+    border-bottom: 1px solid #333864;   
+    margin:0;
 }
 
 .header-links-element{
     background-color: #171a35;
-    border-color: white;
-    padding: 2px;
-    height: 40px;
+    height: 30px;
     width: 100%;
     text-align: left;
     display: block;
+    max-width: 1000px;    
+    margin:0 auto;
 }
 
 .header-follow-element{
@@ -64,12 +89,24 @@ pre{
 }
 
 .hyperlink-icon:hover img{
-    scale: 1.1;
+    scale: 1.2;
 }
 
 .main-block{
     display: inline-flex; 
-    gap: 10px
+    gap: 10px;
+    max-width: 1000px;    
+    margin:0 auto;
+}
+
+.main-about-block{
+    max-width: 1000px;    
+    margin:0 auto;
+}
+
+.main-contact-block{
+    max-width: 1000px;    
+    margin:0 auto;
 }
 
 #img {
